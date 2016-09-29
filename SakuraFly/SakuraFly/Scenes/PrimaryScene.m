@@ -63,9 +63,6 @@ static const uint32_t flowerCategory = 0x1 << 4;
 {
     [restartView dismiss];
     [self restart];
-#ifndef DEBUG
-    [self showFullScreenAd];
-#endif
 }
 
 - (void)restartView:(RestartLabel *)restartView didPressLeaderboardButton:(SKSpriteNode *)restartButton{
@@ -76,9 +73,6 @@ static const uint32_t flowerCategory = 0x1 << 4;
     if (_isGameStart) {
         return;
     }
-#ifndef DEBUG
-    [(MainViewController*)self.view.window.rootViewController showFullScreenAd];
-#endif
 }
 
 -(void)showLeaderboard{
@@ -190,7 +184,7 @@ static const uint32_t flowerCategory = 0x1 << 4;
     _hitSakuraToScore.position = CGPointMake(self.frame.size.width / 2, CGRectGetMidY(self.frame)-60);
     _hitSakuraToScore.fontColor = COLOR_LABEL;
     _hitSakuraToScore.zPosition=100;
-    _hitSakuraToScore.text=@"Hit Sakura to Score";
+    _hitSakuraToScore.text=@"Hit Snow flower to Score";
     [self addChild:_hitSakuraToScore];
     _tapToStart = [SKLabelNode labelNodeWithFontNamed:@"AmericanTypewriter-Bold"];
     _tapToStart.fontSize = 20.0f;

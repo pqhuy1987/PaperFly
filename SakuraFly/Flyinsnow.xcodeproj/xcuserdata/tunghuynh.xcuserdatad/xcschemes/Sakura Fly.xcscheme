@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9849F39019DC2777006FF547"
-               BuildableName = "Sakura Fly.app"
+               BuildableName = "Fly In Snow.app"
                BlueprintName = "Sakura Fly"
-               ReferencedContainer = "container:SakuraFly.xcodeproj">
+               ReferencedContainer = "container:Flyinsnow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "3EAE673D1C7A2A9E00F0EDB8"
                BuildableName = "Sakura FlyTests.xctest"
                BlueprintName = "Sakura FlyTests"
-               ReferencedContainer = "container:SakuraFly.xcodeproj">
+               ReferencedContainer = "container:Flyinsnow.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9849F39019DC2777006FF547"
-            BuildableName = "Sakura Fly.app"
+            BuildableName = "Fly In Snow.app"
             BlueprintName = "Sakura Fly"
-            ReferencedContainer = "container:SakuraFly.xcodeproj">
+            ReferencedContainer = "container:Flyinsnow.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9849F39019DC2777006FF547"
-            BuildableName = "Sakura Fly.app"
+            BuildableName = "Fly In Snow.app"
             BlueprintName = "Sakura Fly"
-            ReferencedContainer = "container:SakuraFly.xcodeproj">
+            ReferencedContainer = "container:Flyinsnow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9849F39019DC2777006FF547"
-            BuildableName = "Sakura Fly.app"
+            BuildableName = "Fly In Snow.app"
             BlueprintName = "Sakura Fly"
-            ReferencedContainer = "container:SakuraFly.xcodeproj">
+            ReferencedContainer = "container:Flyinsnow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
