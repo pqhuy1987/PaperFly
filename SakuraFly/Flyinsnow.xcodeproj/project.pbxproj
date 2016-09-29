@@ -61,14 +61,14 @@
 		98476F8819DFC39C001AB9C1 /* sfx_hit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_hit.caf; sourceTree = "<group>"; };
 		98476F8A19DFC39C001AB9C1 /* sfx_wing.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_wing.caf; sourceTree = "<group>"; };
 		98476F9019DFC7E9001AB9C1 /* sfx_point.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_point.caf; sourceTree = "<group>"; };
-		9849F39119DC2777006FF547 /* Sakura Fly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sakura Fly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9849F39119DC2777006FF547 /* Fly In Snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fly In Snow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9849F39419DC2777006FF547 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9849F39619DC2777006FF547 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9849F39819DC2777006FF547 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9849F39C19DC2777006FF547 /* SakuraFly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SakuraFly-Info.plist"; sourceTree = "<group>"; };
+		9849F39C19DC2777006FF547 /* Flyinsnow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flyinsnow-Info.plist"; sourceTree = "<group>"; };
 		9849F39E19DC2777006FF547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9849F3A019DC2777006FF547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9849F3A219DC2777006FF547 /* SakuraFly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SakuraFly-Prefix.pch"; sourceTree = "<group>"; };
+		9849F3A219DC2777006FF547 /* Flyinsnow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flyinsnow-Prefix.pch"; sourceTree = "<group>"; };
 		9849F3A319DC2777006FF547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9849F3A419DC2777006FF547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9849F3A619DC2777006FF547 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		9849F39219DC2777006FF547 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9849F39119DC2777006FF547 /* Sakura Fly.app */,
+				9849F39119DC2777006FF547 /* Fly In Snow.app */,
 				3EAE673E1C7A2A9E00F0EDB8 /* Sakura FlyTests.xctest */,
 			);
 			name = Products;
@@ -194,11 +194,11 @@
 				9849F3A619DC2777006FF547 /* Images.xcassets */,
 				98476F8719DFC39C001AB9C1 /* Sound */,
 				9849F3D219DC2AA8006FF547 /* Common */,
-				9849F39C19DC2777006FF547 /* SakuraFly-Info.plist */,
+				9849F39C19DC2777006FF547 /* Flyinsnow-Info.plist */,
 				3EAE66231C6F9E9800F0EDB8 /* chip.png */,
 				9849F39D19DC2777006FF547 /* InfoPlist.strings */,
 				9849F3A019DC2777006FF547 /* main.m */,
-				9849F3A219DC2777006FF547 /* SakuraFly-Prefix.pch */,
+				9849F3A219DC2777006FF547 /* Flyinsnow-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			);
 			name = "Sakura Fly";
 			productName = SakuraFly;
-			productReference = 9849F39119DC2777006FF547 /* Sakura Fly.app */;
+			productReference = 9849F39119DC2777006FF547 /* Fly In Snow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +281,7 @@
 						TestTargetID = 9849F39019DC2777006FF547;
 					};
 					9849F39019DC2777006FF547 = {
-						DevelopmentTeam = CYNFYQQLZ9;
+						DevelopmentTeam = JQNK74493B;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
 								enabled = 1;
@@ -296,7 +296,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9849F38C19DC2777006FF547 /* Build configuration list for PBXProject "SakuraFly" */;
+			buildConfigurationList = 9849F38C19DC2777006FF547 /* Build configuration list for PBXProject "Flyinsnow" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -506,15 +506,16 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SakuraFly/SakuraFly-Prefix.pch";
+				GCC_PREFIX_HEADER = "SakuraFly/Flyinsnow-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "SakuraFly/SakuraFly-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.3lgy.paper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				INFOPLIST_FILE = "SakuraFly/Flyinsnow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyinsnow.tung;
+				PRODUCT_NAME = "Fly In Snow";
+				PROVISIONING_PROFILE = "c31c9b70-537a-4e5d-86b1-1aa50776f016";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -524,15 +525,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pham Quang Huy (JQNK74493B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SakuraFly/SakuraFly-Prefix.pch";
+				GCC_PREFIX_HEADER = "SakuraFly/Flyinsnow-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "UIKitm=3";
-				INFOPLIST_FILE = "SakuraFly/SakuraFly-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.3lgy.paper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				INFOPLIST_FILE = "SakuraFly/Flyinsnow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyinsnow.tung;
+				PRODUCT_NAME = "Fly In Snow";
+				PROVISIONING_PROFILE = "c31c9b70-537a-4e5d-86b1-1aa50776f016";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -549,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9849F38C19DC2777006FF547 /* Build configuration list for PBXProject "SakuraFly" */ = {
+		9849F38C19DC2777006FF547 /* Build configuration list for PBXProject "Flyinsnow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9849F3BB19DC2777006FF547 /* Debug */,
