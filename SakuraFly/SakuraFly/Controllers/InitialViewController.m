@@ -45,7 +45,7 @@
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
 #else
-    [self authenticateLocalPlayer];
+    //[self authenticateLocalPlayer];
 #endif
 }
 
