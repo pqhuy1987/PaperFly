@@ -25,7 +25,7 @@
 {
     if (self = [super initWithColor:color size:size]) {
         self.userInteractionEnabled = YES;
-        self.button = [SKSpriteNode spriteNodeWithColor:[UIColor colorWithRed:0.608 green:0.349 blue:0.714 alpha:1] size:CGSizeMake(100, 50)];
+        self.button = [SKSpriteNode spriteNodeWithColor:[UIColor colorWithRed:0.2 green:0.2 blue:1 alpha:1] size:CGSizeMake(100, 50)];
         _button.position = CGPointMake(size.width / 2.0f, size.height - 350);
         _button.name = NODENAME_BUTTON;
         [self addChild:_button];
@@ -37,7 +37,7 @@
         _labelNode.position = CGPointMake(0, 0);
         _labelNode.fontColor = [UIColor whiteColor];
         [_button addChild:_labelNode];
-        self.gameCenterNode = [SKSpriteNode spriteNodeWithColor:[UIColor colorWithRed:0.608 green:0.349 blue:0.714 alpha:1]size:CGSizeMake(150, 50)];
+        self.gameCenterNode = [SKSpriteNode spriteNodeWithColor:[UIColor colorWithRed:0.2 green:0.2 blue:1 alpha:1] size:CGSizeMake(150, 50)];
         _gameCenterNode.position = CGPointMake(size.width / 2.0f, size.height - 280);
         [self addChild:_gameCenterNode];
         self. gameCenterLabel=[SKLabelNode labelNodeWithFontNamed:@"AmericanTypewriter-Bold"];
@@ -65,7 +65,7 @@
 
 -(void)addHighestLabelSize:(CGSize)size{
     _highestLabelNode = [SKLabelNode labelNodeWithFontNamed:@"AmericanTypewriter-Bold"];
-     _highestLabelNode.fontColor = [UIColor colorWithRed:0.173 green:0.243 blue:0.314 alpha:1];
+     _highestLabelNode.fontColor = [UIColor colorWithRed:0.8 green:0.0 blue:0.0 alpha:1];
     NSString* showText;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSNumber* highestScore=[defaults objectForKey:@"HighScore"];

@@ -38,5 +38,5 @@
 #define FLOWERCOLOR [UIColor grayColor]
 #define COLOR_HERO [UIColor blueColor]
 #define COLOR_BG [UIColor colorWithRed:0.204 green:0.286 blue:0.369 alpha:1]
-#define COLOR_WALL [UIColor colorWithRed:0.827 green:0.329 blue:0 alpha:1]
+#define COLOR_WALL [UIColor colorWithRed:0.6 green:0.298 blue:0.0 alpha:1]
 #define COLOR_LABEL [UIColor whiteColor]
