@@ -41,9 +41,9 @@
     [super viewDidLoad];
     SKView * skView = (SKView *)self.view;
 #ifdef DEBUG
-    skView.showsDrawCount = YES;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    skView.showsDrawCount = NO ;
+    skView.showsFPS = NO;
+    skView.showsNodeCount = NO;
 #else
     //[self authenticateLocalPlayer];
 #endif

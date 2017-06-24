@@ -273,7 +273,7 @@
 						TestTargetID = 9849F39019DC2777006FF547;
 					};
 					9849F39019DC2777006FF547 = {
-						DevelopmentTeam = JQNK74493B;
+						DevelopmentTeam = 4BLWLFDFU8;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
 								enabled = 1;
@@ -497,6 +497,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SakuraFly/Flyinsnow-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -505,7 +506,7 @@
 				);
 				INFOPLIST_FILE = "SakuraFly/Flyinsnow-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flyinsnow.tung;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.bangkok.100;
 				PRODUCT_NAME = "Fly In Snow";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -520,12 +521,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SakuraFly/Flyinsnow-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "SakuraFly/Flyinsnow-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.flyinsnow.tung;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.bangkok.100;
 				PRODUCT_NAME = "Fly In Snow";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
